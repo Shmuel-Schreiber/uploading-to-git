@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class ErrorComponent implements OnInit {
 
-  constructor(private s:MockService, private r:Router) {}
+  constructor(public s:MockService, private r:Router) {}
 
   ngOnInit() {
   }
